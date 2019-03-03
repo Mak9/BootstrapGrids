@@ -1,6 +1,6 @@
 $lt-gray: #ddd;
 $background-dark: #512DA8;
-$background-light: #9575CD!important;
+$background-light: #9575CD;
 $background-pale: #D1C4E9;
 
 // Height variables
@@ -86,4 +86,11 @@ body{
   }
   #closereservation{
     color:white;
+  }
+  .modal-content{
+      .modal-header{
+          button{
+              color:white;
+          }
+      }
   }
